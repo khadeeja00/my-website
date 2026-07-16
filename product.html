@@ -1,0 +1,98 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Product &mdash; Hunza Handicrafts</title>
+<meta name="description" content="A single handmade piece from the Hunza Valley â€” its maker, materials and method.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,600;1,600&family=Karla:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="logo" href="index.html">Hunza Handicrafts<span>Karimabad &middot; Gilgit-Baltistan</span></a>
+    <button class="nav-toggle" id="navToggle" aria-label="Open menu">&#9776;</button>
+        <nav class="nav" id="nav">
+      <a href="index.html">Home</a>
+      <a href="products.html">Shop</a>
+      <a href="history.html">History</a>
+      <a href="process.html">Making</a>
+      <a href="about.html">Artisans</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="valleys.html">Valleys</a>
+      <a href="faq.html">FAQ</a>
+      <a href="contact.html">Contact</a>
+      <button class="cart-btn" id="cartOpen">Cart <span class="count" id="cartCount" style="display:none">0</span></button>
+    </nav>
+  </div>
+</header>
+
+<main>
+<section class="section">
+  <div class="wrap" id="detail"></div>
+</section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <p class="foot-mark">Hunza Handicrafts</p>
+        <p>A student project showing the work of artisans across the Hunza Valley. Nothing here is for real sale.</p>
+      </div>
+      <div>
+        <h4>Shop</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="products.html">Shop</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Learn</h4>
+        <ul>
+          <li><a href="history.html">History</a></li>
+          <li><a href="process.html">Making</a></li>
+          <li><a href="about.html">Artisans</a></li>
+          <li><a href="valleys.html">Valleys</a></li>
+          <li><a href="faq.html">FAQ</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Find us</h4>
+        <ul>
+          <li><a href="contact.html">Baltit Road, Karimabad</a></li>
+          <li><a href="contact.html">hello@hunzahandicrafts.pk</a></li>
+          <li><a href="contact.html">+92 300 000 0000</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="copy">
+      <span>&copy; 2026 Hunza Handicrafts. Coursework demonstration.</span>
+      <span>Built with HTML, CSS &amp; JavaScript.</span>
+    </div>
+  </div>
+</footer>
+
+<div class="overlay" id="overlay"></div>
+<aside class="cart" id="cart" aria-label="Shopping cart">
+  <div class="cart-head">
+    <h2>Your cart</h2>
+    <button class="close" id="cartClose" aria-label="Close cart">&times;</button>
+  </div>
+  <div class="cart-items" id="cartItems"></div>
+  <div class="cart-foot">
+    <div class="total"><span>Total</span><span id="cartTotal">Rs 0</span></div>
+    <button class="btn" id="checkout">Checkout</button>
+    <p class="note">Demo store &mdash; no payment is taken.</p>
+  </div>
+</aside>
+
+<script src="js/main.js"></script>
+</body>
+</html>
